@@ -1,21 +1,15 @@
 package com.inheritance;
 
 public class Hervivore extends Mammals {
-	public void eat()
+	public String  eat()
 	{
-		System.out.println("adapted to eating plant material");
-		super.eat();
+		return "adapted to eating plant material";
+		
 	}
-	public void example()
+	public String example()
 	{
-		System.out.println("deer,koalas");
+		return "deer,koalas";
 	}
-public static void main(String args[])
-{
-	Hervivore hr= new Hervivore();
-	hr.eat();
-	hr.example();
-	hr.move();
-	hr.division();
+
 }
-}
+

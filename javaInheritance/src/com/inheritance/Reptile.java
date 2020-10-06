@@ -1,10 +1,9 @@
 package com.inheritance;
 
 public class Reptile extends Animal {
-	public static void main(String args[])
+	public String bite()
 	{
-		Reptile re=new Reptile();
-		re.eat();
+		return "biting";
 	}
 	
 
